@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    color: #061f78;
+    font-family: "Courier New";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem6 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem7 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.home-section {
+    background-size: cover;
+    background-color: transparent;
+
+}
+
+.main-heading {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(left, #FF4500, #FF69B4);
+    background: linear-gradient(to right, #FF4500, #FF69B4);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+
+.description {
+    font-family: "Comic Sans MS";
+    margin: 20px;
+    color: #081957;
+}
+
+.home-img {
+    height: 80vh;
+    width: 46vw;
+}
+
+.home-img2 {
+    height: 40vh;
+    width: 46vw;
+}
+
+.animated-text {
+    text-align: left;
+}
+
+.text {
+    opacity: 0;
+    font-family: "Consolas";
+    font-size: 24px;
+    margin: 10px 0;
+    animation: fadeIn 2s forwards;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+/* Animation delay for each text */
+#text1 {
+    animation-delay: 0s;
+}
+
+#text2 {
+    animation-delay: 2s;
+}
+
+#text3 {
+    animation-delay: 4s;
+}
+
+#text4 {
+    animation-delay: 6s;
+}
+
+/* Keyframe for fade-in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.second-heading {
+    opacity: 0;
+    font-size: 24px;
+    margin: 10px 0;
+    animation: fadeIn 2s forwards;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+
+.About-heading {
+    font-family: "Roboto";
+    margin: 20px;
+    color: #081957;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Coursesheading {
+    font-family: "Comic Sans MS";
+    margin: 20px;
+    color: #081957;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.aboutdescription {
+    font-family: "Comic Sans MS";
+    color: #081957;
+    margin: 10px;
+}
+
+.aboutimg {
+    height: 74vh;
+    width: 40vw;
+    margin-top: 40px;
+}
+
+.Aboutsection {
+    padding: 10px;
+    border-radius: 16px;
+    background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+}
+
+.service-section {
+    background-color: #06154a;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.serviceheading {
+    font-family: "Roboto";
+    margin: 20px;
+    color: #6a84e6;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+ul {
+    color: #afbae3;
+}
+
+.service-sub-heading {
+    font-family: "Roboto";
+    margin: 20px;
+    color: #0d2c9e;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.service-sub-description {
+    font-family: "Roboto";
+    color: #3653ba;
+    margin: 20px;
+    font-size: 12px;
+}
+
+.icon-of-service {
+    font-size: 26px;
+    color: #691fad;
+    margin-left: 20px;
+}
+
+.service-sub-explore {
+    font-family: "Roboto";
+    color: #06154f;
+    margin: 20px;
+    font-size: 16px;
+}
+
+.boxofdomains {
+    padding: 10px;
+    border-radius: 8px;
+    color: #000;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    transition: background-image 0.3s ease, color 0.3s ease;
+}
+
+.boxofdomains:hover {
+    background-image: linear-gradient(-225deg, #B6CEE8 0%, #F578DC 100%);
+    transform: translateY(-5px);
+}
+
+svg:hover {
+    fill: #04044a;
+    margin-left: 5px;
+}
+
+
+
+
+.heading-of-Growing-Rapidly {
+    background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.5);
+    margin: 20px 0px 5px 20px;
+
+}
+
+.course-name {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.course-box {
+    height: 50px;
+    width: 140px;
+    border-width: 2px 2px 5px 2px;
+    border-style: outset;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 4px solid;
+    border-left: 1px solid;
+    border-radius: 8px;
+    background-color: #fff;
+
+    margin: 3px;
+}
+
+.course-box:hover {
+    cursor: pointer;
+    background-color: #FFFFF0;
+}
+
+.Courses-section {
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255, 255, 255, 0.50) 47%, rgba(0, 0, 0, 0.50) 100%);
+    background-size: cover;
+}
+
+.Internship-main-heading {
+    background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+}
+
+.box h3 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    background-image: linear-gradient(-225deg, #FF3CAC 0%, #562B7C 52%, #2B86C5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    margin: 0;
+}
+
+.icon-GIT {
+    font-size: 44px;
+    color: red;
+}
+
+.icon-DSA {
+    font-size: 44px;
+    color: #951dfd;
+}
+
+.DSA {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 40px;
+    border-radius: 4px;
+}
+
+.icon-Coming-Soon {
+    color: lightgray;
+    font-size: 80px;
+}
+
+.GIT {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 34px;
+    border-radius: 4px;
+}
+
+.React-JS {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 70px;
+    border-radius: 4px;
+}
+
+.Node-JS {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 70px;
+    border-radius: 4px;
+}
+
+.Flexbox {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 60px;
+    border-radius: 4px;
+}
+
+
+.SQL {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 40px;
+    border-radius: 4px;
+}
+
+
+.Python {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 56px;
+    border-radius: 4px;
+}
+
+.Bootstrap {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 76px;
+    border-radius: 4px;
+}
+
+.Javascript {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 76px;
+    border-radius: 4px;
+
+}
+
+.HTML {
+    color: darkblue;
+    font-family: "Roboto";
+    font-size: 14px;
+    background-color: lightgray;
+    width: 55px;
+    border-radius: 4px;
+
+}
+
+.dispriction-of-box-1 {
+    color: gray;
+    font-family: "Roboto";
+    font-size: 14px;
+
+}
+
+.icon {
+    font-size: 44px;
+    color: #1243bd;
+
+}
+
+.heading-of-box-1 {
+    color: #4e0a61;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.heading-of-Code-Exploration {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 2.0em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #d69cff;
+    background: linear-gradient(28deg, #fd1de9, #456efc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 10px;
+
+}
+
+.hr-line {
+    border-top: 1px solid lightgray;
+}
+
+.level-1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 12px;
+    color: #959099;
+    font-weight: bold;
+}
+
+.level-1-span {
+    font-size: 30px;
+    color: #ed8a18;
+    font-weight: normal;
+}
+
+.level-1-heading {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #190438;
+    font-weight: normal;
+}
+
+
+.box-1-of-level-1 {
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
+
+}
+
+.box-1-of-level-1:hover {
+    box-shadow: 0 4px 0px rgba(0, 0, 139, 1);
+    cursor: pointer;
+}
+
+.box-2-of-level-1 {
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+
+}
+
+.box-2-of-level-1:hover {
+    box-shadow: 0px 4px 0px rgba(0, 0, 139, 1);
+    cursor: pointer;
+}
+
+.box-3-of-level-1 {
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+
+}
+
+
+.box-3-of-level-1:hover {
+    box-shadow: 0 4px 0px rgba(0, 0, 139, 1);
+    cursor: pointer;
+}
+
+section {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-container p {
+    font-size: 14px;
+    color: #555;
+}
+
+.form-container label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="checkbox"] {
+    width: auto;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF69B4;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-container button:hover {
+    background-color: #FF1493;
+}
+
+.social-links a {
+    color: #FF69B4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.fotter-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
+
+.footer-section span {
+    color: #f39c12;
+    font-weight: bold;
+}
